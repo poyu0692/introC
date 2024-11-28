@@ -4,9 +4,9 @@
 
 #define PI 3.141592653589793
 
-double cos_theorem(double a, double b, double theta)
+double cos_theorem(double a, double b, double theta_rad)
 {
-    double c = sqrt(a * a + b * b - 2 * a * b * cos(theta));
+    double c = sqrt(a * a + b * b - 2 * a * b * cos(theta_rad));
     return c;
 }
 
